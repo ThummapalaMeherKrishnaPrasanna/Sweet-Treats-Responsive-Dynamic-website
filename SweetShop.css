@@ -1,0 +1,84 @@
+
+.img-icon{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.title{
+    width: 190px;
+}
+.nav-barnd{
+    margin: 0px;
+}
+.cur-img{
+    width: 1400px;
+    height: 540px; 
+    object-fit: cover;
+}
+
+.add-bgcolor{
+    background-color: rgb(232, 164, 74);
+    transition: 0.25;
+}
+.add-bgcolor:hover{
+    background-color: rgb(214, 146, 57);
+}
+.products-img{
+    height: 105px ;
+    object-fit: cover;
+}
+.us-bg{
+    background-color: rgb(255, 246, 237);
+}
+.btn-color{
+    background-color: rgb(244, 122, 70);
+}
+.btn-color:hover{
+    background-color: rgb(249, 147, 103);
+    color: black;
+}
+.last-icon{
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+}
+.copyright{
+    font-size: 13px;
+}
+.pro-large{
+    width: 12rem;
+}
+
+.cart{
+    color:aliceblue;
+    cursor: pointer;
+}
+
+
+@media(max-width:438px){
+   .pro-small{
+    width: 170px;
+    height: 275px;
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+   }
+}
+
+@media(max-width:414px){
+   .pro-small{
+    width: 170px;
+    height: 275px;
+    font-size: 14px;
+
+   }
+}
+
+@media(max-width:373px){
+   .pro-small{
+    width: 150px;
+    height: 270px;
+    font-size: 14px;
+    margin-top: 10px;
+   }
+}
